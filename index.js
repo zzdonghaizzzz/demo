@@ -69,7 +69,7 @@ app.use('/payment', paymentControl );
 
 app.listen( PORT, 
     () => {
-        console.log("\n\n--------- Server running ! PORT: ", PORT);
+        console.log("\n\n--------- Server running ! PORT: "+ PORT);
     }
 );
 
